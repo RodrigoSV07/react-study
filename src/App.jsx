@@ -10,12 +10,11 @@ function App() {
   return (
     <div>
       <Header />
-      <h1>Studdyng react</h1>
-
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
           <Post />
+          
         </main>
       </div>
     </div>
